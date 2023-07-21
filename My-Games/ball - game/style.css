@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(55, 80, 65);
+    user-select: none;
+}
+
+/* 
+
+    background-color: rgb(74, 110, 89);
+
+*/
+
+
+.button {
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    padding:10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(43, 40, 40);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    transition: .3s;
+    background-color: rgb(63, 59, 59);
+}
+
+.game {
+    padding-left: 260px;
+}
+
+
+.timerShow {
+    display: none;
+    margin-top: 450px;
+    height: 20px;
+    width: 815px;
+    background-color:rgb(143, 12, 3);
+    border-radius: 10px;
+    transition: .5s;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -260px;
+    align-items: center;
+    text-align: center;
+    color: rgb(17, 17, 17);
+    box-shadow: 4px 4px 8px black;
+    border-radius: 5px;
+    background-color: rgb(99, 136, 114);
+
+}
+
+
+.grid {
+    position: absolute;
+    height: 400px;
+    width: 810px;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 4px;
+    background-color: rgb(99, 136, 114);
+    box-shadow: 4px 4px 20px 4px black;
+}
+
+.block {
+    position: absolute;
+    height: 25px;
+    width: 150px;
+    background-color: rgb(29, 39, 59);
+}
+.fake-block {
+    position: absolute;
+    height: 25px;
+    width: 150px;
+    background-color: rgb(243, 243, 255);
+}
+
+.user {
+    position: absolute;
+    height: 25px;
+    width: 150px;
+    background-color: rgb(41, 61, 49);
+    border: 1px solid rgb(26, 25, 25);
+    box-shadow: 2px 2px 5px black;
+    border-radius: 15px;
+}
+
+.ball {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: rgb(66, 65, 65);
+    box-shadow: 1px 1px 5px 4px rgb(192, 164, 6);
+}
+
+.gift{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: aqua;
+}

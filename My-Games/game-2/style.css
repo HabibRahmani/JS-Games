@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(192, 190, 190);
+}
+
+.alert {
+    padding-top: 10px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(68, 27, 48);
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#grid img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#grid {
+    width: 600px;
+    padding-left: 380px;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    flex-wrap: wrap;
+}
